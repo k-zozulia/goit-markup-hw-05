@@ -135,11 +135,11 @@ ul {
 .contact-link:active,
 .contact-link:hover,
 .contact-link:focus {
-  color: #404bbf;
+  color: var(--color-hover-blue);
 }
 
 .nav-item .active {
-  color: #404bbf;
+  color: var(--color-hover-blue);
 }
 
 .active::after {
@@ -148,7 +148,7 @@ ul {
   width: 100%;
   height: 4px;
   border-radius: 2px;
-  background: #404bbf;
+  background: var(--color-hover-blue);
   position: absolute;
   left: 0;
   bottom: -1px;
@@ -201,7 +201,7 @@ ul {
 
 .order-button:hover,
 .order-button:focus {
-  background-color: #404bbf;
+  background-color: var(--color-hover-blue);
 }
 
 .hero-title,
@@ -398,7 +398,7 @@ ul {
 }
 .social-media-link:hover,
 .social-media-link:focus {
-  background-color: #404bbf;
+  background-color: var(--color-hover-blue);
 }
 
 .social-icon {
@@ -575,7 +575,7 @@ ul {
 }
 .modal-close-button:hover,
 .modal-close-button:focus {
-  background-color: #31d0aa;
+  background-color: var(--color-hover-blue);
   border: none;
 }
 .modal-close-button:hover .modal-close-icon,
@@ -709,7 +709,7 @@ ul {
 }
 
 .checkbox-input:checked + .checkbox-label > .checkbox-box {
-  background-color: #404bbf;
+  background-color: var(--color-hover-blue);
   fill: var(--color-light-gray);
   border: none;
 }
@@ -740,5 +740,5 @@ ul {
 
 .form-submit-button:hover,
 .form-submit-button:focus {
-  background-color: #404bbf;
+  background-color: var(--color-hover-blue);
 }
